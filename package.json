@@ -1,0 +1,28 @@
+{
+  "name": "three.js-activity-1.6-1.12-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",                          
+    "build": "vite build",                
+    "deploy": "vercel --prod",              
+    "login": "vercel login",              
+    "logout": "vercel logout"              
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",                      
+    "lil-gui": "^0.20.0",                   
+    "three": "^0.170.0",                    
+    "vercel": "^39.1.0"                     
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"                       
+  },
+  "engines": {
+    "node": "20.x"                          
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
